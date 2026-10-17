@@ -1,0 +1,10 @@
+# Gradle/Loom
+/.gradle
+/build
+/run
+/logs
+
+# IntelliJ
+/.idea
+*.iml
+/out

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "pet_chunk_loader",
+  "version": "${version}",
+  "name": "Pet Chunk Loader",
+  "description": "Keeps the chunks around tamed wolves and cats loaded, and restores them after a server restart.",
+  "authors": ["tsubasa-km"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/pet-chunk-loader",
+    "sources": "https://github.com/tsubasa-km/pet-chunk-loader",
+    "issues": "https://github.com/tsubasa-km/pet-chunk-loader/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/pet_chunk_loader/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["io.github.tsubasakm.petchunkloader.PetChunkLoader"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
